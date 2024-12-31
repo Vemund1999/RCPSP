@@ -1,0 +1,9 @@
+Attribute counts for the final population:
+Attribute: EF, Count: 48441
+Attribute: MaxRReq, Count: 59981
+Attribute: ES, Count: 49930
+Attribute: TSC, Count: 51325
+Attribute: AvgRReq, Count: 42102
+Attribute: TPC, Count: 52386
+Attribute: MinRReq, Count: 41941
+Attribute: RR, Count: 65365

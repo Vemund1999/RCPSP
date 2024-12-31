@@ -1,0 +1,169 @@
+Attribute counts for the best individual:
+Best makespan: 145.0, deviation: 45.0
+Attribute: EF, Count: 13
+Attribute: MaxRReq, Count: 15
+Attribute: ES, Count: 9
+Attribute: TSC, Count: 15
+Attribute: AvgRReq, Count: 7
+Attribute: TPC, Count: 7
+Attribute: MinRReq, Count: 6
+Attribute: RR, Count: 6
+
+Height: 11
+
+Tree Structure:
+max
+│  ├──neg1
+│  │  ├──min
+│  │  │  ├──neg1
+│  │  │  │  ├──add
+│  │  │  │  │  ├──sub
+│  │  │  │  │  │  ├──neg1
+│  │  │  │  │  │  │  ├──div
+│  │  │  │  │  │  │  │  ├──min
+│  │  │  │  │  │  │  │  │  ├──TPC
+│  │  │  │  │  │  │  │  │  └──MaxRReq
+│  │  │  │  │  │  │  │  └──TSC
+│  │  │  │  │  │  │  └──AvgRReq
+│  │  │  │  │  │  └──AvgRReq
+│  │  │  │  │  └──RR
+│  │  │  │  └──neg1
+│  │  │  │  │  ├──TPC
+│  │  │  │  │  └──add
+│  │  │  │  │  │  ├──EF
+│  │  │  │  │  │  └──min
+│  │  │  │  │  │  │  ├──mul
+│  │  │  │  │  │  │  │  ├──max
+│  │  │  │  │  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  │  │  │  │  └──RR
+│  │  │  │  │  │  │  │  └──add
+│  │  │  │  │  │  │  │  │  ├──AvgRReq
+│  │  │  │  │  │  │  │  │  └──MinRReq
+│  │  │  │  │  │  │  └──min
+│  │  │  │  │  │  │  │  ├──add
+│  │  │  │  │  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  │  │  │  │  └──EF
+│  │  │  │  │  │  │  │  └──mul
+│  │  │  │  │  │  │  │  │  ├──TSC
+│  │  │  │  │  │  │  │  │  └──EF
+│  │  │  └──min
+│  │  │  │  ├──div
+│  │  │  │  │  ├──sub
+│  │  │  │  │  │  ├──EF
+│  │  │  │  │  │  └──min
+│  │  │  │  │  │  │  ├──mul
+│  │  │  │  │  │  │  │  ├──add
+│  │  │  │  │  │  │  │  │  ├──neg1
+│  │  │  │  │  │  │  │  │  │  ├──RR
+│  │  │  │  │  │  │  │  │  │  └──ES
+│  │  │  │  │  │  │  │  │  └──EF
+│  │  │  │  │  │  │  │  └──TSC
+│  │  │  │  │  │  │  └──TPC
+│  │  │  │  │  └──min
+│  │  │  │  │  │  ├──ES
+│  │  │  │  │  │  └──add
+│  │  │  │  │  │  │  ├──RR
+│  │  │  │  │  │  │  └──EF
+│  │  │  │  └──sub
+│  │  │  │  │  ├──min
+│  │  │  │  │  │  ├──EF
+│  │  │  │  │  │  └──sub
+│  │  │  │  │  │  │  ├──add
+│  │  │  │  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  │  │  │  └──AvgRReq
+│  │  │  │  │  │  │  └──TSC
+│  │  │  │  │  └──sub
+│  │  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  │  └──MaxRReq
+│  │  └──AvgRReq
+│  └──max
+│  │  ├──sub
+│  │  │  ├──add
+│  │  │  │  ├──div
+│  │  │  │  │  ├──add
+│  │  │  │  │  │  ├──neg1
+│  │  │  │  │  │  │  ├──EF
+│  │  │  │  │  │  │  └──EF
+│  │  │  │  │  │  └──MinRReq
+│  │  │  │  │  └──sub
+│  │  │  │  │  │  ├──EF
+│  │  │  │  │  │  └──TPC
+│  │  │  │  └──neg1
+│  │  │  │  │  ├──sub
+│  │  │  │  │  │  ├──mul
+│  │  │  │  │  │  │  ├──ES
+│  │  │  │  │  │  │  └──div
+│  │  │  │  │  │  │  │  ├──TPC
+│  │  │  │  │  │  │  │  └──MaxRReq
+│  │  │  │  │  │  └──mul
+│  │  │  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  │  │  └──min
+│  │  │  │  │  │  │  │  ├──TPC
+│  │  │  │  │  │  │  │  └──ES
+│  │  │  │  │  └──TPC
+│  │  │  └──sub
+│  │  │  │  ├──min
+│  │  │  │  │  ├──EF
+│  │  │  │  │  └──sub
+│  │  │  │  │  │  ├──add
+│  │  │  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  │  │  └──AvgRReq
+│  │  │  │  │  │  └──TSC
+│  │  │  │  └──sub
+│  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  └──MaxRReq
+│  │  └──max
+│  │  │  ├──add
+│  │  │  │  ├──div
+│  │  │  │  │  ├──neg1
+│  │  │  │  │  │  ├──mul
+│  │  │  │  │  │  │  ├──TSC
+│  │  │  │  │  │  │  └──sub
+│  │  │  │  │  │  │  │  ├──TSC
+│  │  │  │  │  │  │  │  └──MaxRReq
+│  │  │  │  │  │  └──TSC
+│  │  │  │  │  └──TSC
+│  │  │  │  └──mul
+│  │  │  │  │  ├──min
+│  │  │  │  │  │  ├──max
+│  │  │  │  │  │  │  ├──ES
+│  │  │  │  │  │  │  └──max
+│  │  │  │  │  │  │  │  ├──TSC
+│  │  │  │  │  │  │  │  └──mul
+│  │  │  │  │  │  │  │  │  ├──sub
+│  │  │  │  │  │  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  │  │  │  │  │  └──TSC
+│  │  │  │  │  │  │  │  │  └──TSC
+│  │  │  │  │  │  └──add
+│  │  │  │  │  │  │  ├──max
+│  │  │  │  │  │  │  │  ├──sub
+│  │  │  │  │  │  │  │  │  ├──ES
+│  │  │  │  │  │  │  │  │  └──MinRReq
+│  │  │  │  │  │  │  │  └──sub
+│  │  │  │  │  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  │  │  │  │  └──ES
+│  │  │  │  │  │  │  └──MinRReq
+│  │  │  │  │  └──sub
+│  │  │  │  │  │  ├──neg1
+│  │  │  │  │  │  │  ├──EF
+│  │  │  │  │  │  │  └──TSC
+│  │  │  │  │  │  └──mul
+│  │  │  │  │  │  │  ├──RR
+│  │  │  │  │  │  │  └──TSC
+│  │  │  └──sub
+│  │  │  │  ├──ES
+│  │  │  │  └──mul
+│  │  │  │  │  ├──RR
+│  │  │  │  │  └──mul
+│  │  │  │  │  │  ├──min
+│  │  │  │  │  │  │  ├──div
+│  │  │  │  │  │  │  │  ├──EF
+│  │  │  │  │  │  │  │  └──AvgRReq
+│  │  │  │  │  │  │  └──min
+│  │  │  │  │  │  │  │  ├──MinRReq
+│  │  │  │  │  │  │  │  └──TSC
+│  │  │  │  │  │  └──min
+│  │  │  │  │  │  │  ├──MinRReq
+│  │  │  │  │  │  │  └──mul
+│  │  │  │  │  │  │  │  ├──ES
+│  │  │  │  │  │  │  │  └──MaxRReq

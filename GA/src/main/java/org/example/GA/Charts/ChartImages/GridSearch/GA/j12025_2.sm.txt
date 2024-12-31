@@ -1,0 +1,5 @@
+depth: 5, pCrossover: 0,300, makespan: 108,000 
+depth: 8, pCrossover: 0,300, makespan: 108,000 
+depth: 5, pCrossover: 7,000, makespan: 108,000 
+depth: 8, pCrossover: 7,000, makespan: 108,000 
+Best run: depth: 0,300, pCrossover: 5,000, makespan: 108,000 

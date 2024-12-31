@@ -1,0 +1,45 @@
+Attribute counts for the best individual:
+Best makespan: 38.0, deviation: 0.0
+Attribute: EF, Count: 1
+Attribute: MaxRReq, Count: 3
+Attribute: ES, Count: 2
+Attribute: TSC, Count: 1
+Attribute: AvgRReq, Count: 2
+Attribute: TPC, Count: 3
+Attribute: MinRReq, Count: 1
+Attribute: RR, Count: 3
+
+Height: 8
+
+Tree Structure:
+mul
+│  ├──max
+│  │  ├──ES
+│  │  └──ES
+│  └──neg1
+│  │  ├──AvgRReq
+│  │  └──add
+│  │  │  ├──min
+│  │  │  │  ├──div
+│  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  └──min
+│  │  │  │  │  │  ├──TSC
+│  │  │  │  │  │  └──MaxRReq
+│  │  │  │  └──mul
+│  │  │  │  │  ├──MaxRReq
+│  │  │  │  │  └──AvgRReq
+│  │  │  └──add
+│  │  │  │  ├──mul
+│  │  │  │  │  ├──max
+│  │  │  │  │  │  ├──mul
+│  │  │  │  │  │  │  ├──TPC
+│  │  │  │  │  │  │  └──EF
+│  │  │  │  │  │  └──RR
+│  │  │  │  │  └──sub
+│  │  │  │  │  │  ├──TPC
+│  │  │  │  │  │  └──TPC
+│  │  │  │  └──max
+│  │  │  │  │  ├──min
+│  │  │  │  │  │  ├──MinRReq
+│  │  │  │  │  │  └──RR
+│  │  │  │  │  └──RR

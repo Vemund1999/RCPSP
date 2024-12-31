@@ -1,0 +1,62 @@
+Attribute counts for the best individual:
+Attribute: MinRReq, Count: 3
+Attribute: AvgRReq, Count: 7
+Attribute: EF, Count: 1
+Attribute: RR, Count: 6
+Attribute: ES, Count: 2
+Attribute: TSC, Count: 3
+Attribute: TPC, Count: 1
+Attribute: MaxRReq, Count: 2
+
+Height: 8
+
+Tree Structure:
+neg1
+│  ├──min
+│  │  ├──neg1
+│  │  │  ├──max
+│  │  │  │  ├──max
+│  │  │  │  │  ├──RR
+│  │  │  │  │  └──AvgRReq
+│  │  │  │  └──div
+│  │  │  │  │  ├──AvgRReq
+│  │  │  │  │  └──ES
+│  │  │  └──sub
+│  │  │  │  ├──MinRReq
+│  │  │  │  └──max
+│  │  │  │  │  ├──neg1
+│  │  │  │  │  │  ├──max
+│  │  │  │  │  │  │  ├──TSC
+│  │  │  │  │  │  │  └──MaxRReq
+│  │  │  │  │  │  └──div
+│  │  │  │  │  │  │  ├──RR
+│  │  │  │  │  │  │  └──AvgRReq
+│  │  │  │  │  └──min
+│  │  │  │  │  │  ├──EF
+│  │  │  │  │  │  └──MinRReq
+│  │  └──add
+│  │  │  ├──neg1
+│  │  │  │  ├──TPC
+│  │  │  │  └──div
+│  │  │  │  │  ├──AvgRReq
+│  │  │  │  │  └──MaxRReq
+│  │  │  └──sub
+│  │  │  │  ├──RR
+│  │  │  │  └──add
+│  │  │  │  │  ├──AvgRReq
+│  │  │  │  │  └──TSC
+│  └──sub
+│  │  ├──neg1
+│  │  │  ├──max
+│  │  │  │  ├──max
+│  │  │  │  │  ├──RR
+│  │  │  │  │  └──AvgRReq
+│  │  │  │  └──div
+│  │  │  │  │  ├──AvgRReq
+│  │  │  │  │  └──ES
+│  │  │  └──sub
+│  │  │  │  ├──MinRReq
+│  │  │  │  └──mul
+│  │  │  │  │  ├──TSC
+│  │  │  │  │  └──RR
+│  │  └──RR
