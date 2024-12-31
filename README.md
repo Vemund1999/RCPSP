@@ -1,3 +1,6 @@
+
+make sure to go to the master branch at: https://github.com/Vemund1999/RCPSP/tree/master
+
 # RCPSP
 ## About project 
 This projects is for two algorithms to solve RCPSP.
